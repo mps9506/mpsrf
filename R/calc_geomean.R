@@ -75,6 +75,7 @@ calc_geomean <- function(x, ci = NA, R = 1000) {
 #' @return named list with mean and confidence interval
 #' @export
 #' @keywords internal
+#' @importFrom stats var
 mean_ci <- function(x, ci, R = 1000) {
   boot.mean <- boot(x,
                     function(x, i) {
