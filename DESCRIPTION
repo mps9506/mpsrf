@@ -7,7 +7,18 @@ Maintainer: Michael Schramm <michael.schramm@ag.tamu.edu>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 RdMacros: mathjaxr
-Imports: boot, mathjaxr
+Imports: 
+    boot,
+    dplyr,
+    FedData,
+    mathjaxr,
+    magrittr,
+    raster,
+    rlang,
+    sf,
+    tibble,
+    tidyr,
+    units
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -15,3 +26,5 @@ RoxygenNote: 7.1.1
 Roxygen: list(markdown = TRUE)
 Suggests: 
     testthat
+Depends: 
+    R (>= 2.10)
